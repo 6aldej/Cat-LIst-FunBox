@@ -1,5 +1,5 @@
 # Тестовое задание FunBox
-![Image alt](https://github.com/6aldej/Cat-List-FunBox/blob/master/src/other/other.png)
+![Image alt](https://github.com/6aldej/Cat-List-FunBox/blob/master/other/other.png)
 ## Level I
 
 >Q1
