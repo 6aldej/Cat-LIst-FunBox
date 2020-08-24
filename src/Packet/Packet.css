@@ -1,0 +1,179 @@
+@font-face {
+    font-family: "ExoFontbold";
+    src: url('../font/TrebuchetMS.ttf');
+  }
+
+@font-face {
+    font-family: "ExoFont";
+    src: url('../font/Exo2.0-Thin.otf');
+  }
+
+@font-face {
+    font-family: "Exo";
+    src: url('../font/Exo.ttf');
+  }
+
+.packet, .packetDisabled {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.position {
+    position: absolute;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top:4px;
+    margin-left: 4px;
+    height: 480px;
+    width: 320px;
+    background: #fff;
+    clip-path: polygon(43px 0, 100% 0%, 100% 100%, 0 100%, 0 43px);
+    border-radius: 0px 10px 10px 10px;
+    -moz-border-radius: 0px 10px 10px 10px;
+    -webkit-border-radius: 0px 10px 10px 10px;
+    border: 0px solid #000000;
+}
+
+.positionBG {
+    position: relative;
+    height: 488px;
+    width: 328px;
+    background: #1698d9;
+    clip-path: polygon(43px 0, 100% 0%, 100% 100%, 0 100%, 0 43px);
+    border-radius: 0px 10px 10px 10px;
+    -moz-border-radius: 0px 10px 10px 10px;
+    -webkit-border-radius: 0px 10px 10px 10px;
+    border: 0px solid #000000;
+    cursor: pointer;
+}
+
+.packetDisabled {    
+    filter: contrast(60%);
+}
+   
+.packet:hover .positionBG, .packet:hover > .positionBG > .position > .weight{
+    background: #2ea8e6;
+}
+
+.packet:hover .positionClick, .packet:hover .positionClick > .position > .weight{
+    background: #e62e7a;
+}
+
+.positionClick, .positionClick > .position > .weight{
+    background: #d91667;
+}
+
+.packetDisabled > .positionBG, .packetDisabled > .positionBG > .position > .weight{
+    background: #b3b3b3;
+    cursor: not-allowed;
+}
+  
+.textContent {
+    margin-left: 49px;
+}
+  
+.textContent p {
+    margin: 0;
+}
+  
+.textContent p:nth-child(1){
+    margin-top: 23px;
+}
+  
+  
+.textContent p:nth-child(2){
+    font-family: "ExoFontBold";
+    font-size: 50px;
+}
+  
+.textContent p:nth-child(3){
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+  
+.cat {
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+    width: 350px;
+    border-radius: 0 0 0 10px;
+}
+  
+.weight {
+    position: absolute;
+    text-align: center;
+    bottom: 11px;
+    right: 11px;
+    z-index: 2;
+    width: 81px; 
+    height: 81px;
+    background: #1698d9;
+    border-radius: 50%;
+}
+
+.weight p {
+    margin: 0px;
+    color: #fff;
+    font-size: 35px;
+}
+  
+.weight p:nth-child(1) {
+    font-family: "Exo";
+    font-size: 40px;
+    margin-top: 5px;
+}
+  
+.weight p:nth-child(2) {
+    font-size: 20px;
+}
+  
+a {
+    color:#1698d9;
+}
+
+.pFoot {
+    color: #fff;
+    font-family: "Exo";
+}
+
+.pFoot > a {
+    cursor: pointer;
+}
+
+.pFootDisabled {
+    color: yellow;
+}
+
+.note {
+    position: relative;
+    transition: 1s;
+    user-select: none;
+    color: #939393;
+    font-family: "ExoFontBold";
+  }
+
+  .noteMouse {
+    color: #939393;
+    font-family: "Exo";
+    }
+  
+  .packet:hover .positionClick > .position > .textContent > .note{
+    color: transparent;
+  }
+  
+.note:before {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: attr(data-replace);
+    color: transparent;
+    transition: 1s;
+  }
+  
+  .packet:hover .positionClick > .position > .textContent > .note:before {
+    color: #e62e7a;
+  }
+  
