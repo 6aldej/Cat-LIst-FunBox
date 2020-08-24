@@ -1,5 +1,5 @@
 # Тестовое задание FunBox
-# Level II выполнен на React JS
+* Level II выполнен на React JS
 ![Image alt](https://github.com/6aldej/Cat-List-FunBox/blob/master/other/other.png)
 ## Level I
 
