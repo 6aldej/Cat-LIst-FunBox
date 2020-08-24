@@ -1,5 +1,5 @@
 # Тестовое задание FunBox
-
+![Image alt](https://github.com/6aldej/Cat-List-FunBox/blob/master/other/other.png)
 ## Level I
 
 >Q1
@@ -83,4 +83,15 @@ IE на Windows. Код писали не вы, доступа к исходни
 https://github.com/6aldej/React-Table
 
 https://github.com/6aldej/React-Weather
+
+
+## Level II
+
+## Запуск
+
+    git clone https://github.com/6aldej/Cat-List-FunBox.git
+    cd Cat-List-FunBox
+    npm install
+    npm start
+
 
