@@ -88,6 +88,8 @@ https://github.com/6aldej/React-Weather
 
 ## Level II
 
+Проект выполнен на React JS. Задачей проекта было сверстать блок в соответсвии с дизайном.
+
 ## Запуск
 
     git clone https://github.com/6aldej/Cat-List-FunBox.git
