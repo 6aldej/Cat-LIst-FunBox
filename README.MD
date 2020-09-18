@@ -4,7 +4,7 @@
 
 1. Товар в наличии, но не выбран.
 2. Товар в налиичии, товар выбран.
-3. Товара нет в наличии. (disabled).
+3. Товара нет в наличии (disabled).
 
 ![Image alt](https://github.com/6aldej/ImagesForProjects/blob/master/funbox/other.png)
 
